@@ -57,6 +57,8 @@ void MaidCafe.MaidCafeStreamManager.Update()
 
 2.到 Release 下载压缩包，把包内你想要的 `脚本.cs` 放到 `COM3D2\scripts`
 
+如果你真的不知道，Github 下载一般在仓库主页右边的 Releases 标签中，点进去 Releases 后，在 Assets 标签中有下载；如果要下载整个仓库，点击仓库主页绿色的 Code 按钮，然后点击 Download ZIP。
+
 <br>
 
 ## 脚本说明
