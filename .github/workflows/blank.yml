@@ -22,7 +22,7 @@ jobs:
       - name: 打包多个文件和文件夹
         run: |
           zip -r COM3D2_Scripts_901-${{ env.TAG_NAME }}.zip \
-            script/ \
+            scripts/ \
             README.md \
             -x "folder2/exclude-this-file.txt"
 
