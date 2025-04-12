@@ -15,6 +15,10 @@
 
 2. Download the compressed package from Release and put the `script.cs` you want in the package into `COM3D2\scripts`
 
+If you really don't know, the Github download is usually in the [Releases](https://github.com/90135/COM3D2_Scripts_901/releases) tab on the right side of the repository homepage. After clicking Releases, there is a download in the Assets tab;
+
+If you want to download the entire repository, click the green Code button on the repository homepage, and then click Download ZIP.
+
 ## Script Description
 
 ### maid_cafe_line_break_fix.cs
@@ -54,11 +58,13 @@ void MaidCafe.MaidCafeStreamManager.Update()
 
 ## 用法
 
-1.你需要 doc（krypto5863） 版本的 [ScriptLoader.dll](https://github.com/krypto5863/BepInEx.ScriptLoader)，很不幸没有简单的办法判断是不是新版；2024 年 3 月 1 日 及之后的 CMI 内附带的都是此版本的（CMI.2.5.21-RC3.zip）
+1. 你需要 doc（krypto5863） 版本的 [ScriptLoader.dll](https://github.com/krypto5863/BepInEx.ScriptLoader)，很不幸没有简单的办法判断是不是新版；2024 年 3 月 1 日 及之后的 CMI 内附带的都是此版本的（CMI.2.5.21-RC3.zip）
 
-2.到 Release 下载压缩包，把包内你想要的 `脚本.cs` 放到 `COM3D2\scripts`
+2. 到 Release 下载压缩包，把包内你想要的 `脚本.cs` 放到 `COM3D2\scripts`
 
-如果你真的不知道，Github 下载一般在仓库主页右边的 Releases 标签中，点进去 Releases 后，在 Assets 标签中有下载；如果要下载整个仓库，点击仓库主页绿色的 Code 按钮，然后点击 Download ZIP。
+如果你真的不知道，Github 下载一般在仓库主页右边的 [Releases](https://github.com/90135/COM3D2_Scripts_901/releases) 标签中，点进去 Releases 后，在 Assets 标签中有下载；
+
+如果要下载整个仓库，点击仓库主页绿色的 Code 按钮，然后点击 Download ZIP。
 
 <br>
 
