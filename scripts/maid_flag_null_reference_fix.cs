@@ -4,7 +4,6 @@
 // #desc 用于修复经营切替（在 COM3D2 中切换到 CM3D2 模式）中由某个插件导致的错误。修复 ScriptManager.TJSFuncGetMaidFlag 方法中的空引用异常，某个插件导致了它，但我找不到，所以我只是补丁原始游戏
 // #LICENSE The Unlicense
 // #version 1.0.0
-
 using HarmonyLib;
 using System;
 using UnityEngine;
