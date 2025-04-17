@@ -1,6 +1,7 @@
 // #author 90135
 // #name maid cafe LineBreakComment Fix
-// #desc 修复女仆咖啡厅DLC弹幕文本换行时的字符串越界异常 Fixed maid cafe DLC string out-of-bounds exception when comment text wrapping
+// #desc Fixed maid cafe DLC string out-of-bounds exception when comment text wrapping (This problem occurs when the length of the translated text does not match)
+// #desc 修复女仆咖啡厅 DLC 弹幕文本换行时的字符串越界异常（翻译后文本长度对不上会导致此问题）
 // #LICENSE The Unlicense
 // #version 1.0.3
 using HarmonyLib;
