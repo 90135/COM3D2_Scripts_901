@@ -1,7 +1,7 @@
 // #author 90135
 // #name TJSFuncGetMaidFlag Null Reference Fix
-// #desc Fixed a null reference exception in the ScriptManager.TJSFuncGetMaidFlag method, some plugin was causing it but I couldn't find it so I just patched the original game
-// #desc 修复 ScriptManager.TJSFuncGetMaidFlag 方法中的空引用异常，某个插件导致了它，但我找不到，所以我只是补丁原始游戏
+// #desc Used to fix an error caused by a certain plugin in business switching (switching to CM3D2 mode in COM3D2). Fixed a null reference exception in the ScriptManager.TJSFuncGetMaidFlag method, some plugin was causing it but I couldn't find it so I just patched the original game
+// #desc 用于修复经营切替（在 COM3D2 中切换到 CM3D2 模式）中由某个插件导致的错误。修复 ScriptManager.TJSFuncGetMaidFlag 方法中的空引用异常，某个插件导致了它，但我找不到，所以我只是补丁原始游戏
 // #LICENSE The Unlicense
 // #version 1.0.0
 
