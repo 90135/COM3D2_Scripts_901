@@ -44,6 +44,7 @@ void MaidCafe.MaidCafeComment.UpdateCommentSize(int commentNum)
 void MaidCafe.MaidCafeStreamManager.Update()
 ```
 
+<br>
 
 ### maid_flag_null_reference_fix.cs
 
@@ -64,6 +65,16 @@ void ScriptManager.Update()
 void GameMain.Update()
 ```
 
+
+## Other Repositories
+
+You can also check out my other repositories
+
+- [COM3D2 Simple MOD Guide Chinese](https://github.com/90135/COM3D2_Simple_MOD_Guide_Chinese)
+- [COM3D2 MOD Editor](https://github.com/90135/COM3D2_MOD_EDITOR)
+- [COM3D2 Plugin Chinese Translation](https://github.com/90135/COM3D2_Plugin_Translate_Chinese)
+- [90135's COM3D2 Chinese Guide](https://github.com/90135/COM3D2_GUIDE_CHINESE)
+- [90135's COM3D2 Script Collection](https://github.com/90135/COM3D2_Scripts_901)
 
 <br>
 <br>
@@ -101,6 +112,7 @@ void GameMain.Update()
 
 <br>
 
+
 ## 脚本说明
 
 ### maid_cafe_line_break_fix.cs
@@ -118,6 +130,8 @@ void MaidCafe.MaidCafeComment.LineBreakComment(string text)
 void MaidCafe.MaidCafeComment.UpdateCommentSize(int commentNum)
 void MaidCafe.MaidCafeStreamManager.Update()
 ```
+
+<br>
 
 ### maid_flag_null_reference_fix.cs
 
@@ -139,6 +153,12 @@ void GameMain.Update()
 ```
 
 
+## 也可以看看我的其他仓库
 
+- [COM3D2 简明 MOD 教程中文](https://github.com/90135/COM3D2_Simple_MOD_Guide_Chinese)
+- [COM3D2 MOD 编辑器](https://github.com/90135/COM3D2_MOD_EDITOR)
+- [COM3D2 插件中文翻译](https://github.com/90135/COM3D2_Plugin_Translate_Chinese)
+- [90135 的 COM3D2 中文指北](https://github.com/90135/COM3D2_GUIDE_CHINESE)
+- [90135 的 COM3D2 脚本收藏集](https://github.com/90135/COM3D2_Scripts_901)
 
 
