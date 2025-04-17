@@ -11,7 +11,7 @@
 
 ## Usage
 
-1. You need the doc (krypto5863) version of [ScriptLoader.dll](https://github.com/krypto5863/BepInEx.ScriptLoader). Unfortunately, there is no easy way to determine whether it is a new version; CMI from March 1, 2024 and later come with this version (CMI.2.5.21-RC3.zip)
+1. You need the doc (krypto5863) version of [ScriptLoader.dll](https://github.com/krypto5863/BepInEx.ScriptLoader). Unfortunately, there is no easy way to determine whether it is a new version; [CMI](https://github.com/krypto5863/COM-Modular-Installer) from March 1, 2024 and later come with this version (CMI.2.5.21-RC3.zip)
 
 2. Download the compressed package from Release and put the `script.cs` you want in the package into `COM3D2\scripts`
 
@@ -58,7 +58,7 @@ void MaidCafe.MaidCafeStreamManager.Update()
 
 ## 用法
 
-1. 你需要 doc（krypto5863） 版本的 [ScriptLoader.dll](https://github.com/krypto5863/BepInEx.ScriptLoader)，很不幸没有简单的办法判断是不是新版；2024 年 3 月 1 日 及之后的 CMI 内附带的都是此版本的（CMI.2.5.21-RC3.zip）
+1. 你需要 doc（krypto5863） 版本的 [ScriptLoader.dll](https://github.com/krypto5863/BepInEx.ScriptLoader)，很不幸没有简单的办法判断是不是新版；2024 年 3 月 1 日 及之后的 [CMI](https://github.com/krypto5863/COM-Modular-Installer) 内附带的都是此版本的（CMI.2.5.21-RC3.zip）
 
 2. 到 Release 下载压缩包，把包内你想要的 `脚本.cs` 放到 `COM3D2\scripts`
 
