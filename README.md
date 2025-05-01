@@ -52,6 +52,8 @@ Used to fix a bug in the business switch (switching to CM3D2 mode in COM3D2) cau
 
 The game works fine after disabling all plugins, so it should be caused by a plugin, but I can't find it, so I chose to patch the original game
 
+(It is caused by [WildParty](https://github.com/hawkeye-e/COM3D2_WildParty), version v0.4.0 fixes this problem)
+
 ```
 [Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
 Stack trace:
@@ -138,6 +140,8 @@ void MaidCafe.MaidCafeStreamManager.Update()
 用于修复经营切替（在 COM3D2 中切换到 CM3D2 模式）中由某个插件导致的错误。
 
 禁用所有插件后游戏正常，所以它应当是某个插件引起的，但我找不到它，所以我选择对原始游戏打补丁
+
+(它是由 [WildParty](https://github.com/hawkeye-e/COM3D2_WildParty) 引起的，版本 v0.4.0 修复了这个问题)
 
 ```
 [Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
