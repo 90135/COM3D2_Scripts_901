@@ -7,6 +7,8 @@
 
 901's COM3D2 script collections
 
+If not otherwise specified, it is applicable to COM3D2 by default and has not been tested on COM3D2.5.
+
 <br>
 
 ## Usage
@@ -93,6 +95,8 @@ You can also check out my other repositories
 # 901 的 COM3D2 脚本收藏集
 
 虽然叫收藏集，但是都是自制 “脚本”
+
+如无特殊标注，默认适用于 COM3D2，未在 COM3D2.5 测试
 
 <br>
 
