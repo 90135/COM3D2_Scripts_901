@@ -1,9 +1,8 @@
 // #author 90135
 // #name maid cafe LineBreakComment Fix
-// #desc Fixed maid cafe DLC string out-of-bounds exception when comment text wrapping (This problem occurs when the length of the translated text does not match)
-// #desc 修复女仆咖啡厅 DLC 弹幕文本换行时的字符串越界异常（翻译后文本长度对不上会导致此问题）
+// #desc 修复女仆咖啡厅DLC弹幕文本换行时的字符串越界异常 Fixed maid cafe DLC string out-of-bounds exception when comment text wrapping
 // #LICENSE The Unlicense
-// #version 1.0.3
+// #version 1.0.4
 using HarmonyLib;
 using MaidCafe;
 using UnityEngine;
@@ -15,7 +14,13 @@ public static class LineBreakCommentFix
 
     public static void Main()
     {
-        harmonyInstance = Harmony.CreateAndPatchAll(typeof(LineBreakCommentFix));
+        if (Harmony.HasAnyPatches("com3d2.justanothertranslator.plugin.hooks.text.maidcafedlclinebreakcommentfix"))
+        {
+            Debug.LogWarning("[Waring   :maid_cafe_line_break_fix.cs by C# Script Loader] LineBreakCommentFix is already fixed by JustAnotherTranslator. please delete this script, location: (COM3D2/scripts/maid_cafe_line_break_fix.cs)\n" +
+                             "LineBreakCommentFix 已被 JustAnotherTranslator 修复. 请删除此脚本，位置: (COM3D2/scripts/maid_cafe_line_break_fix.cs)");
+            return;
+        }
+        harmonyInstance = Harmony.CreateAndPatchAll(typeof(LineBreakCommentFix), "com.github.90135.com3d2_scripts_901.maidcafelinebreakcommentfix");
     }
 
     public static void Unload()
