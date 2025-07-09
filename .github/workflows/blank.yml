@@ -26,12 +26,26 @@ jobs:
             README.md \
             -x "folder2/exclude-this-file.txt"
 
+      - name: 生成更新日志
+        id: changelog
+        uses: mikepenz/release-changelog-builder-action@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: 创建 Release 并上传资源
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ env.TAG_NAME }}
           name: Release ${{ env.TAG_NAME }}
-          body: "自动生成的 Release 版本：${{ env.TAG_NAME }}"
+          body: |
+            ## 🚀 版本：${{ env.TAG_NAME }}
+            
+            ### 📝 更改
+            ${{ steps.changelog.outputs.changelog }}
+            
+            ---
+            
+            *此版本由 GitHub Actions 自动生成*
           draft: false
           prerelease: false
           files: COM3D2_Scripts_901-${{ env.TAG_NAME }}.zip
