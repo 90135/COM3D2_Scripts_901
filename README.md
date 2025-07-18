@@ -33,6 +33,9 @@ If not otherwise specified, it is applicable to COM3D2 by default and has not be
 
 This is used to fix the bug that the bullet screen of Maid Cafe DLC sometimes stops scrolling after translation.
 
+If you use [COM3D2.JustAnotherTranslator.Plugin](https://github.com/MeidoPromotionAssociation/COM3D2.JustAnotherTranslator.Plugin), then you don't need this patch
+
+Version 1.0.5 is automatically compatible with JustAnotherTranslator
 
 <img src="https://github.com/user-attachments/assets/ee428b39-5e1a-4566-a516-ea50dccb1bc1" width="500"/>
 
@@ -124,6 +127,10 @@ You can also check out my other repositories
 ### maid_cafe_line_break_fix.cs
 
 用于修复 女仆咖啡厅 DLC 翻译后弹幕有时候会停止滚动的错误。
+
+如果你使用 [COM3D2.JustAnotherTranslator.Plugin](https://github.com/MeidoPromotionAssociation/COM3D2.JustAnotherTranslator.Plugin)，那么你不需要这个补丁
+
+Version 1.0.5 可以自动与 JustAnotherTranslator 兼容
 
 <img src="https://github.com/user-attachments/assets/ee428b39-5e1a-4566-a516-ea50dccb1bc1" width="500"/>
 
